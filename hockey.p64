@@ -1,0 +1,364 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjM5OjQzIixtb2RpZmllZD0iMjAyNS0w
+Ni0wNiAyMDo0Nzo0NiIscmV2aXNpb249NTA2XV1sejQAzgMAAAM2AADzIXtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgAynk9MCx6b29tPTh9LD4AL-fwMQAc
+nzi3KMcY1wj3v2kAHZ_wCOcY1yjHOLc5AB2PvwzXHMcstzw4AByvtzzHLNcc5wz3sDkAHE8fENce
+AgAKD1AAHF-XHxjXHgIACQ9QABw-ZxzXAgAKH2dQABzfVxgHCLcIBxi3CBcItwwAIB9XcAAdD1AA
+BmEcCLc8tzwIAA8kAAQPbAAdH-DfAhr-AQgIBKAVQDUgVRBVIDVAFaBtAB31CxVYgAhfGAhgCH4I
+QAieCDAIPhg_CDAILjguBgACEgDvnghACH4IYAheCIBY8BVnAB71ClyADF8QDGAMfgxADJ4MMAw_
+HD4MMAwuPC4GAAISAM_eDEAMfgxgDF4MgFxnAB8-iAfwbwEd9QP3JjiXeHd4ZwgHWAcIVwgXOBcG
+AAASAI9neHd4lzj3JlYAGfEfQEAE9-----_PmPckGJcY9yAY1xj3HBj3Ahj3GQj3Bgj3Fwj3CAj3
+FQj3Cgj3FAYAcRMI9wwI9xIGANARCPcOCPcQCKcIZwiXCQBwdzgXKBc4ZwsAQMcIBwhXAgoLAAch
+AAU1AABEABcRVgAXE24AERWAABEXjAARGZgAEByjABAgrQAiJJi8AA_2AkpPEBAE_DEAHR-8MQAd
+L3h8AgALD_IATQ8xAB5gANUABdYVAgDwDQYFlgUGFQYFNgVGBQYVFgUmFSYFFhUWBRYFBgUKADIm
+BQYMAAcKAFM2BTYFNgYAAUYATwUA1QCCACSTVhVWFUYFFgVGBgAIXAAgJnV2AJNWBSYVFgV2BRYG
+AAKyAA92ACnyBGYlNhVGJQYlFhVGBUYVBhVGBXYEAMMVFhUmFWYlBgUWFaYEAL_WFRYVdiUmFSZV
+RnIAKDAWNXZUAWAlVhUWBTZoAADqAFAVFgVWFdwAJmYFBgACEgACHgACKgB-FhVmFRYlhmYBL1M1
+RhU2VVYBT3UmFVYCAAQPaAAp8QLWFUYVZhU2JWYVJjVmFRalBgQAIiY1FAAAHAABJgAPYgAqAUgA
+oSU2FWY1JhUGpRYEAAAMAAEUAC8VRmIALB9WAgAEBDYBAEIBAEoBABQAD2gAKV8WlRYVVgIAFAAs
+AA9qACEv-xAYBB0--xjwrAQdDzEA------97W0BABPD-AQAfAKMAHg8xAP------------------
+--------------------fy6AgLsdDwEAHR8wogAeDzEA--------wlBtPTh9fQ==
+:: gfx/puck.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjUwOjU4Iixtb2RpZmllZD0iMjAyNS0w
+My0xNCAyMDowMjoxNyIscmV2aXNpb249NTNdXWx6NABGAgAAszMAAPMhe1swXT17Ym1wPXB4dQBD
+IBAQBPBWBxAHwBfQF8AHEAfwVixmbGFncz0wLHBhbl94CADKeT0wLHpvb209OH0sPgAv9-AxAByf
+MLcgxxDXAPe-aQAdn7AA5xDXIMcwtzkAHY_-ANcQxyC3MDgAHK_3MMcg1xDnAPewOQAcLxXXAgAL
+D08AHC-XFQIACw9PABw-ZxzXAgAKH2dQABzfVxgHCLcIBxi3CBcItwwAIB9XcABWTxwItzxuAB4R
+PDgADlAADwwAEg9uABr-AQgIBKAVQDUgVRBVIDVAFaCqABz1DPAVWIAIXxgIYAh_CEAInggwCD4Y
+PggwCC44LgYAAhIA754IQAh_CGAIXgiAWPAVZwAe9QpcgAxfEAxgDH4MQAyeDDAMPhw_DDAMLjwu
+BgACEgDPngxADH4MYAxeDIBcZwAfP4gH8KwBHfUD9yY4l3h3eGcIB1gHCFcIFzgXBgAAEgCPZ3h3
+eJc49yZWABnxH0BABPf-----j5j3JBiXGPcgGNcY9xwY9wIY9xkI9wYI9xcI9wgI9xUI9woI9xQG
+AHETCPcMCPcSBgDQEQj3Dgj3EAinCGcIlwkAcHc4FygXOGcLAEDHCAcIJgIKCwAHIQAFNQAARAAX
+EVYAFxNuABEVgAARF4wAERmYABAcowAQIK0AIiSYvAAPRwEcL-DwMQD----------75bQEAE8P8B
+AB8AcgAeDzEA------------------------------------------------i1BtPTh9fQ==
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjUyOjIzIixtb2RpZmllZD0iMjAyNS0w
+Ni0wNiAyMDo0Nzo0NyJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjM5OjQzIixtb2RpZmllZD0iMjAyNS0w
+Ni0wNiAyMDo0Nzo0NiIscmV2aXNpb249NDU2XV1sejQA8wAAAFsQAADwCHt7Ym1wPXVzZXJkYXRh
+KCJpMTYiLDMyAwBfIjAwMTMEACRfNTAwMTQEACgTMgQAFjMEAG8wMjAwMDEEAAQXOAwAAAQAFzkM
+AA4gAA4EAB81gAAQHzGAAEgXMXwAD4AA--8HFjYsAA_AAD4XN3wAD4AAMRdhDAAPgAASDwABeyJk
+YgQACYAAHzGAAEgPgAKRHzGAAP9tHzOAAEgEeAAOgAAPAAh2D4AAWw8EAGUOgAAPBAD-------9t
+8QoiKSxoaWRkZW49ZmFsc2UscGFuX3g9MTEyCgC1eT0xNix0aWxlX2gKABB3CgCAem9vbT0xfX0=
+:: map/puck.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjUxOjE4Iixtb2RpZmllZD0iMjAyNS0w
+My0xNCAyMDoxNjo0NiIscmV2aXNpb249ODNdXWx6NAC2AAAAXBAAAPAIe3tibXA9dXNlcmRhdGEo
+ImkxNiIsMzIDAJ8iMDAwMjAwMDEEACgXOQwADwQAHRc1DAAPgABhHzGAAP------dRc2DAAPgADd
+HzeAALAXYQwAD4AAYRdiDAAPgAAhHzGAAWwfMYAAaB8xgAD------3UXMwwAD4AAXfELNCIpLGhp
+ZGRlbj1mYWxzZSxwYW5feD0yNTYKANR5PS0xNix0aWxlX2g9CgAQdwoAgHpvb209MX19
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjUyOjIzIixtb2RpZmllZD0iMjAyNS0w
+Ni0wNiAyMDo0Nzo0NyJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjM5OjQ0Iixtb2RpZmllZD0iMjAyNS0w
+Ni0wNiAyMDo0Nzo0NyIscmV2aXNpb249NDczXV1sejQAOAIAANsLAAD-MHB4dQADKAAABAAED0AQ
+Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
+Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
+-70f-wEArPIjyA9AAA8QQA81DzkPPg9CD0MPRQ9ID0wPTT9PD04PTQ9LD0YPRP--HvIC-R7_Av0e
+8HAxAPQeDQ86DzwPQQ9DD0gPSg9ML00PTA9KD0gPRQ9BDzwPOw85Dzr9HfcD-R3_A-0cNQDzIwMP
+Eg8UDxcPGg8dDg8jDyUPKQ8sDy8PMw82DzoPPg9BD0UPSQ9MD08PUR9VD1QPUQ9NVADxCEMPQQ9A
+Dz8PPQ85DzUPNA8zDzQPNg85GgCCNw8xDy0PKh9MAPEMNQ87D0IPRg9WD0QPPg88Dz0PQQ9ID1by
+MP4whgDxEQNADxEPEw8WDxsPHw8mDzAPPh9ID0cPRg9BDzkPMg8sSQBwKg8uDzMPODsAhR9RD0sP
+Ow82cwDxDj0PQA9FD0oPUA9SL1MPUQ9QD00PSA9ED0EPPQ84KADyCyoPJw8rDy0PLg8wD1EPNQ9B
+D1MN9y8N-i8NggDwGAAPGSAPMg81DzYPOA85DzsPQQ86D0sPUQ9THzAPNw9ADyEPJg81P7wA8wI-
+D0H9FwhVBiU2mP0X-gn9F8QAX-2w8HAECAAbH-8BAP-cUP----8D
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjUyOjIzIixtb2RpZmllZD0iMjAyNS0w
+Ni0wNiAyMDo0Nzo0NyJdXQ==
+:: main.lua
+--[[pod_format="raw",created="2025-03-05 21:39:43",modified="2025-06-06 20:47:46",revision=892]]
+function _init()
+ start = false
+ win = false
+ winr = false
+ winb = false
+ pux = 228
+ puy = 132
+ puckspeed = 0
+ ypuckspeed = 0
+ dx = 1
+ dy = 1
+ rng = 0
+ plx = 66
+ ply = 128
+ pl2x = 400
+ pl2y = 128
+ plvx = 0
+ plvy = 0
+ pl2vx = 0
+ pl2vy = 0
+ scorer = 0
+ scoreb = 0
+ boardsu = true
+ boardsd = true
+ boardss = true
+ accel = 0.5
+ friction = 0.85
+ max_speed = 3
+ single_player = true -- true = vs AI, false = 2 players
+ ai_timer = 0
+ ai_delay = 5
+ ai_target_x = pux
+ ai_target_y = puy
+ sfx(4,-1)
+end
+
+function _update()
+if start == true then
+sfx(4)
+end
+ if not start then
+  if btnp(4) then
+   single_player = false
+  end
+  if btnp(5) then
+   start = true
+  end
+  return
+ end
+
+ if win then return end
+
+ -- move puck
+ pux += dx * puckspeed
+ puy += dy * ypuckspeed
+
+ -- player 1 input (WASD)
+ if btn(8) then plvx -= accel end -- A
+ if btn(9) then plvx += accel end -- D
+ if btn(10) then plvy -= accel end -- W
+ if btn(11) then plvy += accel end -- S
+
+if single_player then
+  ai_timer += 1
+
+  if pux > 232 then -- only react if puck is on AI's half
+    if ai_timer >= ai_delay then
+      ai_timer = 0
+
+      -- Predict where the puck will be
+      ai_target_x = pux + dx * puckspeed * 10
+      ai_target_y = puy + dy * ypuckspeed * 10
+
+      -- Add slight randomness
+      ai_target_x += rnd(4) - 2
+      ai_target_y += rnd(4) - 2
+    end
+
+    -- Clamp to AI side
+    ai_target_x = mid(240, ai_target_x, 431)
+    ai_target_y = mid(17, ai_target_y, 248)
+
+    -- Move toward target
+    if ai_target_y > pl2y + 4 then pl2vy += accel end
+    if ai_target_y < pl2y - 4 then pl2vy -= accel end
+    if ai_target_x > pl2x + 4 then pl2vx += accel end
+    if ai_target_x < pl2x - 4 then pl2vx -= accel end
+  else
+    -- If puck is not on AI side, slow AI down
+    pl2vx *= 0.8
+    pl2vy *= 0.8
+  end
+
+ else
+  -- player 2 input (arrow keys)
+  if btn(0) then pl2vx -= accel end -- left
+  if btn(1) then pl2vx += accel end -- right
+  if btn(2) then pl2vy -= accel end -- up
+  if btn(3) then pl2vy += accel end -- down
+ end
+
+ -- apply friction
+ plvx *= friction
+ plvy *= friction
+ pl2vx *= friction
+ pl2vy *= friction
+
+ -- clamp speed
+ plvx = mid(-max_speed, plvx, max_speed)
+ plvy = mid(-max_speed, plvy, max_speed)
+ pl2vx = mid(-max_speed, pl2vx, max_speed)
+ pl2vy = mid(-max_speed, pl2vy, max_speed)
+
+ -- update positions
+ plx += plvx
+ ply += plvy
+ pl2x += pl2vx
+ pl2y += pl2vy
+
+ -- boundary with y-speed reset
+ if ply <= 8 or ply >= 248 then
+  ply = mid(17, ply, 248)
+  plvy = 0
+ end
+ if pl2y <= 8 or pl2y >= 248 then
+  pl2y = mid(17, pl2y, 248)
+  pl2vy = 0
+ end
+
+ -- x-boundaries with bounce
+ if plx <= 49 then
+  plx = 49
+  plvx = -plvx
+ end
+ if plx >= 232 then
+  plx = 232
+  plvx = -plvx
+ end
+
+ if pl2x <= 232 then
+  pl2x = 232
+  pl2vx = -pl2vx
+ end
+ if pl2x >= 415 then
+  pl2x = 415
+  pl2vx = -pl2vx
+ end
+
+ -- collision check
+ check_collision()
+
+ -- goal detection
+-- goal detection (blue goal on left)
+if pux + 4 <= 48 and puy + 4 >= 100 and puy + 4 <= 160 then
+  scoreb += 1
+  sfx(1)
+  reset_positions()
+end
+
+-- goal detection (red goal on right)
+if pux + 4 >= 428 and puy + 4 >= 100 and puy + 4 <= 160 then
+  scorer += 1
+  sfx(0)
+  reset_positions()
+end
+
+
+ -- bounce puck off top/bottom
+ if puy <= 17 or puy >= 248 then
+  puy = mid(17, puy, 248)
+  ypuckspeed = -sign(ypuckspeed) * rnd(5)
+ end
+
+-- bounce puck off left boundary (except goal zone)
+if pux <= 49 and (puy < 100 or puy > 160) then
+  pux = 49
+  puckspeed = -sign(puckspeed) * rnd(9)+1
+end
+
+-- bounce puck off right boundary (except goal zone)
+if pux >= 431 and (puy < 100 or puy > 160) then
+  pux = 431
+  puckspeed = -sign(puckspeed) * rnd(9)+1
+end
+
+
+ -- win check
+ if scoreb >= 10 then
+  win = true
+  winb = true
+  sfx(2)
+ end
+
+ if scorer >= 10 then
+  win = true
+  winr = true
+  sfx(2)
+ end
+end
+
+function sign(x)
+ return (x < 0) and -1 or 1
+end
+
+function check_collision()
+ -- player 1 paddle
+ if pux > plx and pux < plx + 14 and puy > ply and puy < ply + 14 then
+  puckspeed = rnd(9)+1
+  rng = flr(rnd(2)) * 2 - 1
+  ypuckspeed = rnd(5) * rng
+ end
+
+ -- player 2 paddle
+ if pux + 6 > pl2x and pux < pl2x + 16 and puy + 6 > pl2y and puy < pl2y + 16 then
+  puckspeed = -rnd(9)+1
+  rng = flr(rnd(2)) * 2 - 1
+  ypuckspeed = rnd(5) * rng
+ end
+end
+
+function reset_positions()
+ pux = 228
+ puy = 132
+ plx = 66
+ ply = 128
+ pl2x = 400
+ pl2y = 128
+ plvx = 0
+ plvy = 0
+ pl2vx = 0
+ pl2vy = 0
+ puckspeed = 0
+ ypuckspeed = 0
+ rng = 0
+end
+
+function _draw()
+ cls()
+
+ if not start then
+  circfill(100, 100, 1000, 9)
+  print("Air Hockey", 218, 135, 14)
+  print("Press X to start", 205, 90, 28)
+  print("Player 1:",  90, 100, 8)
+  spr(24, 104, 110)
+  spr(25, 88, 126)
+  spr(26, 104, 126)
+  spr(27, 120, 126)
+  print("Player 2:", 320, 100, 12)
+   if single_player == true then
+ spr(25, 328, 110)
+ spr(32, 344, 110)
+ else
+  spr(28, 334, 110)
+  spr(29, 318, 126)
+  spr(30, 350, 126)
+  spr(31, 334, 126)
+ end
+  print("Mode: "..(single_player and "Single Player" or "Two Player"), 200, 120, 7)
+  return
+ end
+ 
+ if winr then
+  circfill(100, 100, 1000, 8)
+  print("Red Wins", 222, 135, 26)
+  return
+ elseif winb then
+  circfill(100, 100, 1000, 12)
+  print("Blue Wins", 222, 135, 26)
+  return
+ end
+
+ -- gameplay render
+ map(0, 0)
+ spr(12, pux, puy)       -- puck
+ spr(13, plx, ply)       -- player 1
+ spr(14, pl2x, pl2y)     -- player 2
+ print("Score R: "..scorer, 150, 8, 0)
+ print("Score B: "..scoreb, 270, 8, 0)
+end
+
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAzLTA1IDIxOjQwOjU4Iixtb2RpZmllZD0iMjAyNS0w
+Ni0wNiAyMDo0Nzo0NyIscnVudGltZT0xMyx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzQwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9p
+bmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlv
+bj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+:: [eoc]
